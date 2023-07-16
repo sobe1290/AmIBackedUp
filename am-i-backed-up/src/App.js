@@ -1,13 +1,14 @@
 import './App.css';
 import Header from './components/header';
 // import FolderSelector from './components/folderselector';
-import FolderHashCalculator from './components/folderhashcalculator';
+import FolderComparisonForm from './components/folderomparisonform';
 
 function App() {
   return (
     <div>
       <Header />
-      <FolderHashCalculator />
+      <h1>Folder Comparison</h1>
+      <FolderComparisonForm />
     </div>
   );
 }

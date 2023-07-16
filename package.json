@@ -1,0 +1,25 @@
+{
+  "name": "amibackedup",
+  "version": "1.0.0",
+  "description": "An upcoming simple tool for forensic examiners that can be used to compare two directories and see if the data was properly backed up. This tool will recursively capture the MD5 hash values of all the contents of the folders and compare them to let you know if any files in the original folder were not backed up.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sobe1290/AmIBackedUp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sobe1290/AmIBackedUp/issues"
+  },
+  "homepage": "https://github.com/sobe1290/AmIBackedUp#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
