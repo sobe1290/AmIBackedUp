@@ -7,7 +7,6 @@ function App() {
   return (
     <div>
       <Header />
-      <h1>Folder Comparison</h1>
       <FolderComparisonForm />
     </div>
   );

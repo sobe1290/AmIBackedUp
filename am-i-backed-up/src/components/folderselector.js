@@ -14,7 +14,7 @@ const FolderSelector = () => {
 
   return (
     <div>
-      <div>
+      <div className="formBox">
         <h2>Box 1</h2>
         <select value={folder1} onChange={handleFolder1Change}>
           <option value="">Select a folder</option>
@@ -23,7 +23,7 @@ const FolderSelector = () => {
           {/* Add more options as needed */}
         </select>
       </div>
-      <div>
+      <div className="formBox">
         <h2>Box 2</h2>
         <select value={folder2} onChange={handleFolder2Change}>
           <option value="">Select a folder</option>

@@ -33,10 +33,10 @@ const FolderComparisonForm = () => {
   };
 
   return (
-    <div>
+    <div className="formBox">
       <form onSubmit={handleSubmit}>
         <div>
-          <label htmlFor="folder1">Folder 1:</label>
+          <label htmlFor="folder1">Source Folder:</label>
           <input
             type="text"
             id="folder1"
@@ -45,7 +45,7 @@ const FolderComparisonForm = () => {
           />
         </div>
         <div>
-          <label htmlFor="folder2">Folder 2:</label>
+          <label htmlFor="folder2">Destination Folder:</label>
           <input
             type="text"
             id="folder2"
